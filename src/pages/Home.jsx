@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import { Link } from 'react-router-dom'
-import imag from '../assets/spotify1'
+// import imag from '../assets/spotify1.png'
 
 const Home = () => {
   return (
@@ -11,12 +11,14 @@ const Home = () => {
     <div className='a'>Premium</div>
     <div className='b'>Help</div>
     <div className='c'>Download</div>
+    <div className='f'>Contact</div>
     <Link to={"/signup"}>
         <div className='d'>Sign Up</div>
     </Link>
     <Link to={"/login"}>
-        <div className='d'>Log in</div>
+        <div className='e'>Log in</div>
     </Link>
+
 
     </div>
   )
