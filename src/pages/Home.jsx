@@ -22,7 +22,7 @@ const Home = () => {
         <div className='e'>Log In</div>
       </Link>
     </div><div className="container">
-        <div className='sen1'>Music for Eveyone</div>
+        <div className='sen1'>Music for Everyone</div>
         <div className='sen2'>Millions of songs.No credit card needed</div>
         <button className='but'>GET SPOTIFY FREE
         </button>
